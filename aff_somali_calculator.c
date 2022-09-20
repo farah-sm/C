@@ -29,22 +29,22 @@ tnx = "Mahadsanid saxiib";
     if ( operation == div)
     {
         di =  div_nums(input, by);
-        printf("%.2lf\n%s\n", di, tnx);
+        printf("%.2lf / %.2lf = %.2lf\n%s\n", input, by, di, tnx);
     }
     else if ( operation == mult)
     {
         mul =  mult_nums(input, by);
-        printf("%.2lf\n%s\n", mul, tnx);
+        printf("%.2lf x %.2lf = %.2lf\n%s\n", input, by, mul, tnx);
     }
     else if ( operation == add)
     {
         ad =  add_nums(input, by);
-        printf("%.2lf\n%s\n", ad, tnx);
+        printf("%.2lf + %.2lf = %.2lf\n%s\n", input, by, ad, tnx);
     }
     else if ( operation == subt)
     {
         sub = subt_nums(input, by);
-        printf("%.2lf\n%s\n", sub, tnx);
+        printf("%.2lf - %.2lf = %.2lf\n%s\n", input, by, sub, tnx);
     }
 
 }
