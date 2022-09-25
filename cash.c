@@ -108,3 +108,4 @@ int calculate_pennies(int cents)
 // Return the incremented amount of pennies
     return pennies;
 }
+
